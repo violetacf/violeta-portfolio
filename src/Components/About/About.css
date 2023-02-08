@@ -1,21 +1,25 @@
 /*Code About CSS:*/
 
-#name {
+.name {
   color: #ba5d66;
   font-size: 20pt;
 }
 
-#variable {
-  color: #8a61b3;
+.variable {
+  color: var(--mainColor);
 }
 
-#string {
+.string {
   color: #87ab6d;
   font-size: 20pt;
 }
 
-#parenthesis {
+.parenthesis {
   color: #f1cc02;
+}
+
+#my-name {
+  font-size: 50pt;
 }
 
 .code-text-container {
@@ -64,11 +68,38 @@
   font-size: 20pt;
 }
 
+.contact-function-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40pt;
+}
+
+.function-container {
+  max-width: 400pt;
+  min-width: 400pt;
+  margin: 10pt;
+  align-items: center;
+}
+
 @media only screen and (max-width: 1024px) {
   .img-intro-about-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .contact-function-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10pt;
+  }
+
+  .function-container {
+    /* max-width: 400pt;
+    min-width: 400pt; */
+    margin: 0pt;
+    max-width: 300pt;
+    min-width: 250pt;
   }
 
   .subtitle {
@@ -80,24 +111,24 @@
     min-width: 50pt;
   }
 
-  #name {
-    color: #ba5d66;
+  .name {
     font-size: 15pt;
   }
 
-  #variable {
-    color: #8a61b3;
+  .variable {
     font-size: 15pt;
   }
 
-  #string {
-    color: #87ab6d;
+  .string {
     font-size: 15pt;
   }
 
-  #parenthesis {
-    color: #f1cc02;
+  .parenthesis {
     font-size: 15pt;
+  }
+
+  #my-name {
+    font-size: 25pt;
   }
 
   .intro-text-container {

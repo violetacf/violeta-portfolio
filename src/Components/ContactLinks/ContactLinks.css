@@ -1,10 +1,18 @@
 .links-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 20pt;
   margin-left: 40pt;
   margin-bottom: 20pt;
+}
+
+.links-container p {
+  color: var(--mainColor);
+  border-bottom: solid var(--mainColor);
+}
+
+.subtitle {
+  color: var(--mainColor);
 }
 
 .links-logo {
@@ -32,5 +40,6 @@
     justify-content: space-between;
     gap: 20pt;
     margin-left: 10pt;
+    margin-top: 10pt;
   }
 }

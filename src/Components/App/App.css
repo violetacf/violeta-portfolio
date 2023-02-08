@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-  --mainColor: #a408c6;
-  --mainColorLight: #afbbf2;
+  /* --mainColor: #a408c6; */
+  /* --mainColorLight: #afbbf2; */
+  /* --textColor: #d3fff3; */
+
+  
   --secondaryColor: #181a1b;
-  --textColor: #d3fff3;
+  --mainColor: #8a61b3;
+  /* ^^ This purple to match the code */
+  --mainColorLight: #f1cc02;
+  /* ^^ This yellow to match the code*/
+  --textColor: #87ab6d;
+  /* ^^This green to match the code */
 }
 
 * {
@@ -12,7 +20,7 @@
   margin: 0;
   font-family: 'Poppins', sans-serif;
   font-size: 17pt;
-  color: #d3fff3;
+  color: var(--textColor);
   background-color: var(--secondaryColor);
 }
 

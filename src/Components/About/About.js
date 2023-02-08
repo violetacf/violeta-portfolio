@@ -1,6 +1,7 @@
 import './About.css';
 import MyPicture from '../../Images/MyPicture.JPG';
 import SpeakerSound from '../../Images/SpeakerSound.png';
+import FunctionPicture from '../../Images/FunctionPicture.png';
 import CodeAbout from './CodeAbout';
 import ContactLinks from '../ContactLinks/ContactLinks';
 
@@ -55,6 +56,13 @@ function About() {
         </p>
       </div>
       <div className="contact-function-container">
+        <div className="function-container">
+          <img
+            id="function-pic"
+            src={FunctionPicture}
+            alt="function with my day to day tasks"
+          />
+        </div>
         <ContactLinks />
       </div>
     </div>

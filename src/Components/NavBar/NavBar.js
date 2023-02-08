@@ -12,14 +12,14 @@ export default function NavBar() {
   return (
     <div className="navbar-container">
       <header>
-        <nav className="about-myportfolio" ref={navRef}>
+        <nav className="about-my-portfolio" ref={navRef}>
           <a href="/">&lt;About/&gt;</a>
           <a href="/portfolio">&lt;Portfolio/&gt;</a>
-          <button className="nav-btn nav-close-btn" onClick={showNavBar}>
+          <button className="nav-button nav-close-button" onClick={showNavBar}>
             <FaTimes />
           </button>
         </nav>
-        <button className="nav-btn" onClick={showNavBar}>
+        <button className="nav-button" onClick={showNavBar}>
           <FaBars />
         </button>
       </header>

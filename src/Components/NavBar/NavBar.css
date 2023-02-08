@@ -1,0 +1,110 @@
+:root {
+  --secondaryColor: #181a1b;
+  --mainColor: #8a61b3;
+  /* ^^ This purple to match the code */
+  --mainColorLight: #f1cc02;
+  /* ^^ This yellow to match the code*/
+  --textColor: #87ab6d;
+  /* ^^This green to match the code */
+}
+
+.divider {
+  background-color: var(--mainColor);
+  height: 5pt;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 2rem; */
+  background-color: var(--secondaryColor);
+  /* color: hotpink; */
+  width: 100%;
+}
+
+nav a {
+  margin: 0 0 0 2rem;
+  /* margin-right: 20pt; */
+  color: var(--mainColor);
+  text-decoration: none;
+  font-size: 40pt;
+  position: relative;
+}
+
+nav a:hover {
+  color: var(--mainColorLight);
+}
+
+header .nav-button {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  /* visibility: hidden; */
+  display: none;
+  opacity: 0;
+  font-size: 1.8rem;
+  justify-content: center;
+}
+
+.about-my-portfolio {
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 1024px) {
+  header .nav-button {
+    /* visibility: visible; */
+    opacity: 1;
+    display: block;
+  }
+
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--secondaryColor);
+    transition: 1s;
+    transform: translateY(-100vh);
+  }
+
+  header .responsive_nav {
+    transform: none;
+  }
+
+  nav .nav-close-button {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: yellow;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+  }
+
+  .about-my-portfolio {
+    flex-direction: column;
+  }
+}
+
+.navbar-container {
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--secondaryColor);
+  margin: 20pt;
+  color: var(--mainColorLight);
+}
+
+.divider {
+  background-color: var(--mainColorLight);
+  height: 5pt;
+}
