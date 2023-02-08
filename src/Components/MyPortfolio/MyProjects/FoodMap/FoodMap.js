@@ -1,4 +1,6 @@
-// import '../my-projects.css';
+import './../MyProjects.css';
+import FoodMapPic from '../../../../Images/ProjectsImages/FoodMapPics/FoodMapPic.png';
+import FoodMapPic2 from '../../../../Images/ProjectsImages/FoodMapPics/FoodMapPic2.png';
 
 export default function FoodMap() {
   return (
@@ -7,13 +9,13 @@ export default function FoodMap() {
       <div className="images-container">
         <img
           className="project-image"
-          src="/Pictures/food-map.png"
-          alt="food-map"
+          src={FoodMapPic}
+          alt="Screen shot of an app called FoodMap"
         />
         <img
           className="project-image"
-          src="/Pictures/food-map2.png"
-          alt="food-map"
+          src={FoodMapPic2}
+          alt="Screen shot of an app called FoodMap"
         />
       </div>
       <p>
