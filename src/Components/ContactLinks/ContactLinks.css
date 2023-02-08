@@ -1,0 +1,36 @@
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20pt;
+  margin-left: 40pt;
+  margin-bottom: 20pt;
+}
+
+.links-logo {
+  max-width: 5%;
+  border: none;
+  min-width: 50pt;
+}
+
+.img-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10pt;
+}
+
+.arrow {
+  max-width: 100pt;
+  border: none;
+  min-width: 20pt;
+}
+
+@media only screen and (max-width: 1024px) {
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20pt;
+    margin-left: 10pt;
+  }
+}

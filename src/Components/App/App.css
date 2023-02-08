@@ -15,3 +15,12 @@
   color: #d3fff3;
   background-color: var(--secondaryColor);
 }
+
+img {
+  width: 100%;
+  max-width: 90vw;
+  border-radius: 15pt;
+  border: 10pt;
+  border: solid;
+  border-color: var(--mainColor);
+}

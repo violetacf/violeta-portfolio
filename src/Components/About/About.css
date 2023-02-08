@@ -1,0 +1,111 @@
+/*Code About CSS:*/
+
+#name {
+  color: #ba5d66;
+  font-size: 20pt;
+}
+
+#variable {
+  color: #8a61b3;
+}
+
+#string {
+  color: #87ab6d;
+  font-size: 20pt;
+}
+
+#parenthesis {
+  color: #f1cc02;
+}
+
+.code-text-container {
+  display: block;
+}
+
+#my-pic {
+  border-radius: 33% 67% 52% 48% / 35% 47% 53% 65%;
+}
+
+#speaker-pic {
+  /* margin-top: 3pt; */
+  max-width: 40pt;
+  border: none;
+}
+
+.img-intro-about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.my-picture-container {
+  max-width: 400pt;
+  margin: 20pt;
+  min-width: 50pt;
+}
+
+.intro-about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50pt;
+  margin: 20pt;
+}
+
+.how-to-speaker {
+  display: flex;
+  align-items: center;
+}
+
+.intro-text-container {
+  margin: 40pt;
+}
+
+.subtitle {
+  font-size: 20pt;
+}
+
+@media only screen and (max-width: 1024px) {
+  .img-intro-about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subtitle {
+    font-size: 17pt;
+  }
+
+  .my-picture-container {
+    max-width: 200pt;
+    min-width: 50pt;
+  }
+
+  #name {
+    color: #ba5d66;
+    font-size: 15pt;
+  }
+
+  #variable {
+    color: #8a61b3;
+    font-size: 15pt;
+  }
+
+  #string {
+    color: #87ab6d;
+    font-size: 15pt;
+  }
+
+  #parenthesis {
+    color: #f1cc02;
+    font-size: 15pt;
+  }
+
+  .intro-text-container {
+    margin: 10pt;
+  }
+
+  .intro-about-container {
+    gap: 10pt;
+    margin: 10pt;
+  }
+}
