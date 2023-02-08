@@ -31,7 +31,14 @@
   width: 286pt;
   max-width: 90vw;
   height: 74pt;
+  color: var(--mainColor);
+  border-radius: 33% 67% 52% 48% / 35% 47% 53% 65%;
+  border-color: var(--mainColorLight);
+}
+
+#project-button:hover {
   color: var(--mainColorLight);
+  cursor: pointer;
 }
 
 .project-image {
@@ -40,14 +47,13 @@
 
 .project-title {
   font-size: 46pt;
-  color: var(--mainColorLight);
+  color: var(--mainColor);
 }
 
 @media only screen and (max-width: 1024px) {
   #project-button {
     width: 230pt;
     height: 50pt;
-    color: var(--mainColorLight);
   }
   .buttons-container {
     display: flex;

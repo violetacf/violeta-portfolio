@@ -8,7 +8,7 @@ export default function MyProjects() {
   return (
     <div className="projects-container">
       <FoodMap />
-      {/* <FoodApp />
+      {/*
       <AdventOfCode />
       <Goosfraba />
       <BloggingAndCoding /> */}

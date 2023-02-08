@@ -21,6 +21,10 @@
   min-width: 50pt;
 }
 
+.img-logo-container p:hover {
+  color: var(--mainColorLight);
+}
+
 .img-logo-container {
   display: flex;
   align-items: center;
