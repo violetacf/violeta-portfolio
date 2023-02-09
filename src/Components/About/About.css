@@ -41,11 +41,6 @@
   cursor: pointer;
 }
 
-/* #how-to-pronounce:hover {
-  cursor: pointer;
-  color: var(--mainColorLight);
-} */
-
 .img-intro-about-container {
   display: flex;
   flex-direction: row;
