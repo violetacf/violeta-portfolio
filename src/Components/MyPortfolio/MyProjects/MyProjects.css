@@ -20,6 +20,10 @@
   gap: 2%;
 }
 
+.intro-portfolio-container {
+  margin-top: 20pt;
+}
+
 .images-container {
   display: flex;
   flex-direction: row;
@@ -55,6 +59,10 @@
     width: 230pt;
     height: 50pt;
   }
+  .wider-image-container {
+    flex-direction: column;
+  }
+
   .buttons-container {
     display: flex;
     flex-direction: column;
@@ -70,5 +78,10 @@
   }
   .project-image {
     max-width: 40%;
+  }
+
+  .wider-image {
+    min-width: 100%;
+    max-width: 100pt;
   }
 }

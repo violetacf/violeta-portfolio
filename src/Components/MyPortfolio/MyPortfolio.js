@@ -27,7 +27,8 @@ export default function MyPortfolio() {
         </p>
         <p className="intro-portfolio-container">
           Here you can find some of the projects that I have been part of, click
-          on the buttons and you'll find them:
+          on the buttons and you can interact with them and also check out the
+          code on Github:
         </p>
         <MyProjects />
       </div>

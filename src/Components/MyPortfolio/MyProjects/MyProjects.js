@@ -3,13 +3,14 @@
 // import FoodApp from './Food-map/food-map';
 // import BloggingAndCoding from './Blogging-and-coding/blogging-and-coding';
 import FoodMap from './FoodMap/FoodMap';
+import AdventOfYoga from './AdventOfYoga/AdventOfYoga';
 
 export default function MyProjects() {
   return (
     <div className="projects-container">
       <FoodMap />
+      <AdventOfYoga />
       {/*
-      <AdventOfCode />
       <Goosfraba />
       <BloggingAndCoding /> */}
     </div>
