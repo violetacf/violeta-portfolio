@@ -1,9 +1,12 @@
 import './About.css';
 import MyPicture from '../../Images/MyPicture.JPG';
-import SpeakerSound from '../../Images/SpeakerSound.png';
+// import SpeakerSound from '../../Images/SpeakerSound.png';
 import FunctionPicture from '../../Images/FunctionPicture.png';
 import CodeAbout from './CodeAbout';
 import ContactLinks from '../ContactLinks/ContactLinks';
+import SpeakerSoundDark from '../../Images/SpeakerSoundDark.png';
+import SpeakerSoundLight from '../../Images/SpeakerSoundLight.png';
+import SpeakerSound from './Speaker';
 
 function About() {
   let audio = new Audio('/violeta.m4a');
@@ -19,16 +22,16 @@ function About() {
         <div className="intro-about-container">
           <CodeAbout />
           <div className="how-to-speaker">
-            <h2 className="subtitle" onClick={start}>
-              Hear how to pronounce my name
-            </h2>
+            {/* <h2 id="how-to-pronounce" className="subtitle" onClick={start}> */}
+            <h2 className="subtitle">Hear how to pronounce my name</h2>
             {/* [bjo'leta] */}
-            <img
-              id="speaker-pic"
-              src={SpeakerSound}
+            {/* <img
+              id="speaker-pic-dark"
+              src={SpeakerSoundDark}
               alt="speaker to press and hear the sound"
               onClick={start}
-            />
+            /> */}
+            <SpeakerSound onClick={start} />
           </div>
         </div>
       </div>

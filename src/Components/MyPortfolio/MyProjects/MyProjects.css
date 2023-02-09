@@ -42,11 +42,11 @@
 }
 
 .project-image {
-  width: 45%;
+  max-width: 30%;
 }
 
 .project-title {
-  font-size: 46pt;
+  font-size: 35pt;
   color: var(--mainColor);
 }
 
@@ -60,5 +60,15 @@
     flex-direction: column;
     gap: 5pt;
     align-items: center;
+  }
+  .project-title {
+    font-size: 20pt;
+    color: var(--mainColor);
+  }
+  .intro-portfolio-container {
+    font-size: 17pt;
+  }
+  .project-image {
+    max-width: 40%;
   }
 }

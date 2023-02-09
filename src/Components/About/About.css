@@ -10,12 +10,12 @@
 }
 
 .string {
-  color: #87ab6d;
+  color: var(--textColor);
   font-size: 20pt;
 }
 
 .parenthesis {
-  color: #f1cc02;
+  color: var(--mainColorLight);
 }
 
 #my-name {
@@ -31,10 +31,20 @@
 }
 
 #speaker-pic {
-  /* margin-top: 3pt; */
+  margin-top: 8pt;
   max-width: 40pt;
   border: none;
+  align-items: center;
 }
+
+#speaker-pic:hover {
+  cursor: pointer;
+}
+
+/* #how-to-pronounce:hover {
+  cursor: pointer;
+  color: var(--mainColorLight);
+} */
 
 .img-intro-about-container {
   display: flex;
@@ -133,6 +143,7 @@
 
   .intro-text-container {
     margin: 10pt;
+    padding: 8pt;
   }
 
   .intro-about-container {

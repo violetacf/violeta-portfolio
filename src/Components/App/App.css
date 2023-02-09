@@ -3,15 +3,15 @@
 :root {
   /* --mainColor: #a408c6; */
   /* --mainColorLight: #afbbf2; */
-  /* --textColor: #d3fff3; */
+  --textColor: #d3fff3;
 
-  
   --secondaryColor: #181a1b;
   --mainColor: #8a61b3;
   /* ^^ This purple to match the code */
   --mainColorLight: #f1cc02;
+
   /* ^^ This yellow to match the code*/
-  --textColor: #87ab6d;
+  /* --textColor: #87ab6d; */
   /* ^^This green to match the code */
 }
 

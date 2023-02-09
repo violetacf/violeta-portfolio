@@ -6,9 +6,10 @@
   margin-bottom: 20pt;
 }
 
-.links-container p {
+.links-container a {
   color: var(--mainColor);
-  border-bottom: solid var(--mainColor);
+  /* border-bottom: solid var(--mainColor); */
+  text-decoration: none;
 }
 
 .subtitle {
@@ -19,6 +20,10 @@
   max-width: 5%;
   border: none;
   min-width: 50pt;
+}
+
+.img-logo-container p {
+  color: var(--mainColor);   
 }
 
 .img-logo-container p:hover {

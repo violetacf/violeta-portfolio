@@ -1,13 +1,3 @@
-:root {
-  --secondaryColor: #181a1b;
-  --mainColor: #8a61b3;
-  /* ^^ This purple to match the code */
-  --mainColorLight: #f1cc02;
-  /* ^^ This yellow to match the code*/
-  --textColor: #87ab6d;
-  /* ^^This green to match the code */
-}
-
 .divider {
   background-color: var(--mainColor);
   height: 5pt;
@@ -17,10 +7,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 0 2rem; */
+  padding: 2 0 0 0rem;
   background-color: var(--secondaryColor);
-  /* color: hotpink; */
   width: 100%;
+  flex-direction: row;
 }
 
 nav a {
@@ -37,6 +27,7 @@ nav a:hover {
 }
 
 header .nav-button {
+  /* I want to change the colot of the burger button and the cross, and make them yellow when clicked*/
   padding: 5px;
   cursor: pointer;
   background: transparent;
@@ -84,7 +75,7 @@ header .nav-button {
     position: absolute;
     top: 2rem;
     left: 2rem;
-    color: yellow;
+    /* color: yellow; */
   }
 
   nav a {
