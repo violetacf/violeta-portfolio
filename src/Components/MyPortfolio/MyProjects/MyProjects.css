@@ -76,12 +76,12 @@
     flex-direction: column;
   }
 
-  .buttons-container {
+  /* .buttons-container {
     display: flex;
     flex-direction: column;
     gap: 5pt;
     align-items: center;
-  }
+  } */
 
   .project-title {
     font-size: 20pt;
@@ -103,5 +103,14 @@
   }
   .projects-container {
     margin-top: 10pt;
+  }
+}
+
+@media only screen and (max-width: 1314px) {
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5pt;
+    align-items: center;
   }
 }

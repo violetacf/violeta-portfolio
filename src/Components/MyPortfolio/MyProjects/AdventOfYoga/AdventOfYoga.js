@@ -19,9 +19,17 @@ export default function AdventOfYoga() {
         />
       </div>
       <p>
-        {' '}
+        <br />
         Description: JavaScript, React, CSS, Pair programming, useContext.
         programming in 6 hours
+
+        As a team of six, we developed an application to query a database of
+        food products looking for allergens that related to common conditions so
+        that a user can determine whether a specific product is safe to eat. We
+        used ElephantSQL, Auth0, CSS, Figma, Trello, Miro, Supertest, React,
+        Material UI, Render, Quagga package, msw package.
+
+        Week 11 Hackathon with the School of Code. This week we learnt about deployment
         <br />
         <br />
         Week 11 Hackathon with the School of Code. This week we learnt about
@@ -43,8 +51,19 @@ export default function AdventOfYoga() {
         >
           <button id="project-button">&lt;Launch App/&gt;</button>
         </a>
-        <a href="https://todoist.com/es" target="_blank" rel="noreferrer">
-          <button id="project-button">&lt;See code in GitHub/&gt;</button>
+        <a
+          href="https://github.com/violetacf/weel11_hackathon_advent-of-yoga-frontend"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button id="project-button">&lt;See frontend in GitHub/&gt;</button>
+        </a>
+        <a
+          href="https://github.com/violetacf/weel11_hackathon_advent-of-yoga-backend"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button id="project-button">&lt;See backend in GitHub/&gt;</button>
         </a>
       </div>
     </div>
