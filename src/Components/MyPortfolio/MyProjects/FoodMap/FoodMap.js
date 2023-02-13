@@ -20,11 +20,15 @@ export default function FoodMap() {
       </div>
       <p>
         <br />
+        4-week Final Project with the School of Code.
+        <br />
         As a team of six, we developed an application to query a database of
         food products looking for allergens that related to common conditions so
-        that a user can determine whether a specific product is safe to eat. We
-        used ElephantSQL, Auth0, CSS, Figma, Trello, Miro, Supertest, React,
-        Material UI, Render, Quagga package, msw package.
+        that a user can determine whether a specific product is safe to eat.
+        <br />
+        <br />
+        Tech stack we used: ElephantSQL, Auth0, CSS, Figma, Trello, Miro,
+        Supertest, React, Material UI, Render, Quagga package, msw package.
         <br />
         <br />
         My main contributions were: working on the frontend; implementing Auth0;

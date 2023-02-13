@@ -20,28 +20,24 @@ export default function AdventOfYoga() {
       </div>
       <p>
         <br />
-        Description: JavaScript, React, CSS, Pair programming, useContext.
-        programming in 6 hours
-
-        As a team of six, we developed an application to query a database of
-        food products looking for allergens that related to common conditions so
-        that a user can determine whether a specific product is safe to eat. We
-        used ElephantSQL, Auth0, CSS, Figma, Trello, Miro, Supertest, React,
-        Material UI, Render, Quagga package, msw package.
-
-        Week 11 Hackathon with the School of Code. This week we learnt about deployment
+        1-day Hackathon with the School of Code.
+        <br />
+        Pair programming. This week we learnt about deployment. We chose to make
+        a Christmas related app and came with the idea of an advent of yoga.
+        This was the first project that we deployed back end and front end.
         <br />
         <br />
-        Week 11 Hackathon with the School of Code. This week we learnt about
-        deployment. We chose to make a Christmas related app and came with the
-        idea of an advent of yoga. We also added a useContext to make dark mode
-        for the site. We created our own database with 25 days, each containing
-        an object with a picture, description, name of pose. We deployed this
-        app using Render, we also used Netlify during the week. This was the
-        first project that we deployed back end and front end. Stretch goal for
-        the app: create different difficulties for the user to choose from, and
-        to link the days with the date, so the user wouldn't be able to see days
-        ahead.
+        Tech stack we used: ElephantSQL to create our own database with 25 days,
+        each containing an object with a picture, Render for deployment, also
+        learnt about Netlify during the week, CSS, Figma, React, JavaScript. We
+        also added a useContext to make dark mode for the site.
+        <br />
+        <br />
+        Stretch goals for the app: create different difficulties for the user to
+        choose from, and to link the days with the date, so the user wouldn't be
+        able to see days ahead.
+        <br />
+        <br />
       </p>
       <div className="buttons-container">
         <a
