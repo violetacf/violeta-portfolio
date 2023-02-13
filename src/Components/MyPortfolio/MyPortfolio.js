@@ -8,20 +8,20 @@ export default function MyPortfolio() {
     <div className="portfolio-container">
       <div className="portfolio">
         <p className="code-text-container portfolio-title">
-          <span id="my-name" className="variable">
+          <span id="my-portfolio" className="variable">
             let
           </span>{' '}
-          <span id="my-name" className="name">
+          <span id="my-portfolio" className="name">
             portfolio
           </span>
-          <span id="my-name" className="parenthesis">
+          <span id="my-portfolio" className="parenthesis">
             {' '}
             ={' '}
           </span>
-          <span id="my-name" className="string">
+          <span id="my-portfolio" className="string">
             'My projects'
           </span>
-          <span id="my-name" className="parenthesis">
+          <span id="my-portfolio" className="parenthesis">
             ;
           </span>
         </p>

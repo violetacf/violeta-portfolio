@@ -21,8 +21,12 @@
   font-size: 40pt;
 }
 
+#my-portfolio {
+  font-size: 50pt;
+}
+
 @media only screen and (max-width: 1024px) {
-  #my-name {
+  #my-portfolio {
     font-size: 22pt;
   }
   .portfolio-title {
