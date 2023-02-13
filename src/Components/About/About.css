@@ -28,6 +28,8 @@
 
 #my-pic {
   border-radius: 33% 67% 52% 48% / 35% 47% 53% 65%;
+  max-width: 100%;
+  width: 350pt;
 }
 
 #speaker-pic {
@@ -146,5 +148,10 @@
     gap: 10pt;
     margin: 10pt;
     padding: 8pt;
+  }
+
+  #my-pic {
+    max-width: 100%;
+    width: 150pt;
   }
 }
