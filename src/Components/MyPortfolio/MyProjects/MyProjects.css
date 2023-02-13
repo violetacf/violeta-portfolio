@@ -1,16 +1,16 @@
 .projects-container {
+  margin-top: 20pt;
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: center;
   gap: 30pt;
-  margin-top: 3pt;
 }
 
 .project-container {
   display: flex;
   flex-direction: column;
-  gap: 8pt;
+  gap: 12pt;
 }
 
 .buttons-container {
@@ -100,5 +100,8 @@
   .wider-image {
     min-width: 100%;
     max-width: 100pt;
+  }
+  .projects-container {
+    margin-top: 10pt;
   }
 }
