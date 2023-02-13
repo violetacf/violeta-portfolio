@@ -104,11 +104,12 @@
     min-width: 400pt; */
     margin: 0pt;
     max-width: 300pt;
-    min-width: 250pt;
+    min-width: 90%;
+    padding: 8pt;
   }
 
   .subtitle {
-    font-size: 17pt;
+    font-size: 13pt;
   }
 
   .my-picture-container {
@@ -117,23 +118,23 @@
   }
 
   .name {
-    font-size: 15pt;
+    font-size: 13pt;
   }
 
   .variable {
-    font-size: 15pt;
+    font-size: 13pt;
   }
 
   .string {
-    font-size: 15pt;
+    font-size: 13pt;
   }
 
   .parenthesis {
-    font-size: 15pt;
+    font-size: 13pt;
   }
 
   #my-name {
-    font-size: 25pt;
+    font-size: 22pt;
   }
 
   .intro-text-container {
@@ -144,5 +145,6 @@
   .intro-about-container {
     gap: 10pt;
     margin: 10pt;
+    padding: 8pt;
   }
 }

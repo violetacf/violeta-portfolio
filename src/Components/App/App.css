@@ -28,7 +28,16 @@ img {
   width: 100%;
   max-width: 90vw;
   border-radius: 15pt;
-  border: 10pt;
+  border: 5pt;
   border: solid;
   border-color: var(--mainColor);
+}
+
+@media only screen and (max-width: 1024px) {
+  * {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12pt;
+    color: var(--textColor);
+    background-color: var(--secondaryColor);
+  }
 }

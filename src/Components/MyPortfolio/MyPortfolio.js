@@ -7,7 +7,7 @@ export default function MyPortfolio() {
   return (
     <div className="portfolio-container">
       <div className="portfolio">
-        <p className="code-text-container">
+        <p className="code-text-container portfolio-title">
           <span id="my-name" className="variable">
             let
           </span>{' '}
