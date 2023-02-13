@@ -16,6 +16,25 @@ function About() {
   return (
     <div className="about-container">
       <div className="img-intro-about-container">
+        <p className="code-text-container-my-name-title">
+          <span className="variable" id="my-name-title">
+            const
+          </span>{' '}
+          <span className="name" id="my-name-title">
+            name
+          </span>
+          <span className="parenthesis" id="my-name-title">
+            {' '}
+            ={' '}
+          </span>
+          <span className="string" id="my-name-title">
+            {' '}
+            'Violeta'
+          </span>
+          <span className="parenthesis" id="my-name-title">
+            ;
+          </span>
+        </p>
         <div className="my-picture-container">
           <img src={MyPicture} id="my-pic" alt="portrait of Violeta"></img>
         </div>
