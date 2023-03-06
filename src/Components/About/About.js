@@ -74,7 +74,7 @@ function About() {
           Therefore, I believe I can make a difference towards making sites more
           accessible to the broad spectrum of potential users. Feel free to take
           a look into my portfolio and if you like my work contact me on
-          Linkedin, Twitter or Github.
+          Linkedin, Twitter or GitHub.
         </p>
       </div>
       <div className="contact-function-container">

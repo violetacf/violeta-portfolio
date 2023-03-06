@@ -1,7 +1,7 @@
 import './ContactLinks.css';
 import TwitterLogo from './../../Images/ContactLogos/TwitterLogo.png';
 import LinkedinLogo from './../../Images/ContactLogos/LinkedinLogo.png';
-import GithubLogo from './../../Images/ContactLogos/GithubLogo.png';
+import GitHubLogo from './../../Images/ContactLogos/GitHubLogo.png';
 import ArrowDown from './../../Images/ArrowDown.png';
 
 function ContactLinks() {
@@ -13,8 +13,8 @@ function ContactLinks() {
       </div>
       <a href="https://github.com/violetacf" target="_blank" rel="noreferrer">
         <div className="img-logo-container">
-          <img className="links-logo" src={GithubLogo} alt="Github logo" />
-          <p>Github</p>
+          <img className="links-logo" src={GitHubLogo} alt="GitHub logo" />
+          <p>GitHub</p>
         </div>
       </a>
       <a
