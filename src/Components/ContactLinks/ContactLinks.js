@@ -1,7 +1,7 @@
 import './ContactLinks.css';
 import TwitterLogo from './../../Images/ContactLogos/TwitterLogo.png';
 import LinkedinLogo from './../../Images/ContactLogos/LinkedinLogo.png';
-import GitHubLogo from './../../Images/ContactLogos/GitHubLogo.png';
+import GitHubLogo from './../../Images/ContactLogos/GithubLogo.png';
 import ArrowDown from './../../Images/ArrowDown.png';
 
 function ContactLinks() {
