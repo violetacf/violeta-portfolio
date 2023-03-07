@@ -24,7 +24,7 @@ function ContactLinks() {
       >
         <div className="img-logo-container">
           <img className="links-logo" src={TwitterLogo} alt="Twitter logo" />
-          <p>Twitter</p>
+          <p>@viocodingleta</p>
         </div>
       </a>
       <a
